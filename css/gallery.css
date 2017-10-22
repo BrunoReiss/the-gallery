@@ -1,0 +1,32 @@
+body {
+	padding: 70px 0 50px 0;
+}
+
+.jumbotron {
+	color: #2c3c50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background-color: #2c3c50;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: white
+}
+
+img {
+    -webkit-filter: brightness(100%);
+
+}
+
+img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
